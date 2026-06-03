@@ -592,13 +592,16 @@ img { max-width:100%; display:block; }
     flex-wrap: wrap;
 }
 
-.strip-items span {
+.strip-items span,
+.strip-items a {
     font-size: 0.85rem;
     color: var(--text-dim);
     transition: color 0.25s;
+    text-decoration: none;
 }
 
-.strip-items span:hover {
+.strip-items span:hover,
+.strip-items a:hover {
     color: var(--accent);
 }
 
